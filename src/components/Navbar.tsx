@@ -20,6 +20,7 @@ export default function Navbar() {
 
   const menuItems = [
     { label: 'Programa', href: '/#programa' },
+    { label: 'Oradores', href: '/oradores' },
     { label: 'Organização', href: '/#organizacao' },
     { label: 'Financiamento', href: '/#apoios' },
   ];
