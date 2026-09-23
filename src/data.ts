@@ -73,10 +73,10 @@ export const mainEvent = {
       activity: 'Abertura',
       details: 'Sessão de abertura oficial com a participação de:',
       openingSpeakers: [
-        { role: 'Presidente do Departamento de Ciências Matemáticas', name: 'Prof. Luís Gouveia' },
-        { role: 'Vice-Coordenadora do CEAUL', name: 'Prof.ª Lisete Sousa' },
-        { role: 'Presidente da Sociedade Portuguesa de Estatística', name: 'Prof. Luís Machado' },
-        { role: 'Diretora da Faculdade de Ciências da Universidade de Lisboa', name: 'Prof.ª Conceição Freitas' }
+        { name: 'Prof. Luís Gouveia', role: 'Presidente do Departamento de Ciências Matemáticas' },
+        { name: 'Prof.ª Patrícia Bermudez', role: 'Coordenadora do CEAUL' },
+        { name: 'Prof. Luís Machado', role: 'Presidente da Sociedade Portuguesa de Estatística' },
+        { name: 'Prof.ª Conceição Freitas', role: 'Diretora da Faculdade de Ciências da Universidade de Lisboa' }
       ]
     },
     {

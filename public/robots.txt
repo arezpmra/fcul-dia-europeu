@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://diaeuropeuestatistica20outubro2026.pt/sitemap.xml

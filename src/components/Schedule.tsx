@@ -336,8 +336,8 @@ export default function Schedule() {
                                   <li key={idx} className="flex items-start gap-2.5 text-xs md:text-sm">
                                     <span className="w-1.5 h-1.5 bg-editorial-accent rounded-none mt-1.5 shrink-0"></span>
                                     <span>
-                                      <span className="font-bold text-editorial-dark">{spk.role}:</span>{' '}
-                                      <span className="text-editorial-accent font-semibold">{spk.name}</span>
+                                      <span className="font-bold text-editorial-dark">{spk.name}</span>,{' '}
+                                      <span className="text-editorial-dark/80">{spk.role}</span>
                                     </span>
                                   </li>
                                 ))}
