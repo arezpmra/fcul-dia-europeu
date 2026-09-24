@@ -74,7 +74,7 @@ export const mainEvent = {
       details: 'Sessão de abertura oficial com a participação de:',
       openingSpeakers: [
         { name: 'Prof. Luís Gouveia', role: 'Presidente do Departamento de Ciências Matemáticas' },
-        { name: 'Prof.ª Patrícia Bermudez', role: 'Coordenadora do CEAUL' },
+        { name: 'Prof.ª Patrícia de Zea Bermudez', role: 'Coordenação do Centro de Estatística e Aplicações' },
         { name: 'Prof. Luís Machado', role: 'Presidente da Sociedade Portuguesa de Estatística' },
         { name: 'Prof.ª Conceição Freitas', role: 'Diretora da Faculdade de Ciências da Universidade de Lisboa' }
       ]
@@ -249,13 +249,13 @@ export const dataImportancePoints = [
 
 export const fundingProjects: Project[] = [
   {
-    reference: 'UIDB/00006/2020',
-    agency: 'FCT',
-    name: 'Projeto de Financiamento Plurianual do Centro de Estatística e Aplicações da Universidade de Lisboa (CEAUL) - Componente de Base'
+    reference: 'UID/00006/2025',
+    agency: 'FCT – Fundação para a Ciência e a Tecnologia, I.P.',
+    name: 'Unidade de Investigação CEAUL - Financiamento através de fundos nacionais (DOI: 10.54499/UID/00006/2025)'
   },
   {
-    reference: 'UIDP/00006/2020',
-    agency: 'FCT',
-    name: 'Projeto de Financiamento Plurianual do Centro de Estatística e Aplicações da Universidade de Lisboa (CEAUL) - Componente Programática'
+    reference: 'UID/PRR/00006/2025',
+    agency: 'União Europeia – NextGenerationEU',
+    name: 'Unidade de Investigação CEAUL - Financiamento NextGenerationEU / PRR (DOI: 10.54499/UID/PRR/00006/2025)'
   }
 ];
