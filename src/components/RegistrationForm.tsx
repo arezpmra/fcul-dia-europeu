@@ -46,24 +46,34 @@ export default function RegistrationForm() {
             </div>
           </div>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfIRiEAjRmkgFEEQNcSK22mGVr0WOuDQlOLZNJ9MihHcb6LwQ/viewform"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 bg-editorial-dark text-editorial-cream hover:bg-editorial-cream hover:text-editorial-dark border-2 border-editorial-dark font-black text-xs md:text-sm uppercase tracking-widest py-4 px-8 rounded-none transition-all w-full sm:w-auto"
-            >
-              Inscrição Escolas <ExternalLink className="w-4 h-4" />
-            </a>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 items-stretch max-w-xl mx-auto">
+            <div className="flex flex-col items-center">
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSfIRiEAjRmkgFEEQNcSK22mGVr0WOuDQlOLZNJ9MihHcb6LwQ/viewform"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 bg-editorial-dark text-editorial-cream hover:bg-editorial-cream hover:text-editorial-dark border-2 border-editorial-dark font-black text-xs md:text-sm uppercase tracking-widest py-4 px-6 rounded-none transition-all w-full shadow-sm"
+              >
+                Inscrição: Manhã <ExternalLink className="w-4 h-4 shrink-0" />
+              </a>
+              <span className="text-[11px] font-sans text-editorial-dark/65 mt-2 text-center">
+                Sessão com Escolas e Jovens · Explorística
+              </span>
+            </div>
             
-            <a
-              href="http://docs.google.com/forms/d/e/1FAIpQLSes6Q2CHWHBoQDX4xUqa0nKvjwAs_0E7rJsHDmRbt7O6_vq_Q/viewform"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 bg-editorial-dark text-editorial-cream hover:bg-editorial-cream hover:text-editorial-dark border-2 border-editorial-dark font-black text-xs md:text-sm uppercase tracking-widest py-4 px-8 rounded-none transition-all w-full sm:w-auto"
-            >
-              Inscrição Instituições <ExternalLink className="w-4 h-4" />
-            </a>
+            <div className="flex flex-col items-center">
+              <a
+                href="http://docs.google.com/forms/d/e/1FAIpQLSes6Q2CHWHBoQDX4xUqa0nKvjwAs_0E7rJsHDmRbt7O6_vq_Q/viewform"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 bg-editorial-dark text-editorial-cream hover:bg-editorial-cream hover:text-editorial-dark border-2 border-editorial-dark font-black text-xs md:text-sm uppercase tracking-widest py-4 px-6 rounded-none transition-all w-full shadow-sm"
+              >
+                Inscrição: Tarde <ExternalLink className="w-4 h-4 shrink-0" />
+              </a>
+              <span className="text-[11px] font-sans text-editorial-dark/65 mt-2 text-center">
+                Mesas Redondas · Academia, Empresas e Comunidade
+              </span>
+            </div>
           </div>
         </motion.div>
       </div>
